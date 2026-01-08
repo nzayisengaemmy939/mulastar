@@ -7,9 +7,21 @@ export default defineConfig({
   server: {
     port: 8000,
     host: true,
+    allowedHosts: [
+      'mula-star.org',
+      'www.mula-star.org',
+      'localhost',
+      '.mula-star.org'
+    ],
   },
   preview: {
     port: 8000,
     host: true,
+    allowedHosts: [
+      'mula-star.org',
+      'www.mula-star.org',
+      'localhost',
+      '.mula-star.org'
+    ],
   },
 })
