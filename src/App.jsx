@@ -35,10 +35,18 @@ function App() {
             <div>🇷🇼 Mulastar Rwanda</div>
           </div>
         </div>
-        <div className="mt-8 space-y-2">
+        <div className="mt-8 space-y-4">
           <p className="text-gray-700 font-medium">
             Join Mulastar Agencies and Start Earning Online Today
           </p>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <a href="/about-mulastar.html" className="text-blue-600 hover:text-blue-700 underline">
+              About Mulastar →
+            </a>
+            <a href="/download-mulastar-app.html" className="text-blue-600 hover:text-blue-700 underline">
+              Download Mulastar App →
+            </a>
+          </div>
           <p className="text-gray-500 text-sm">
             Mulastar | Mula Star | Mulastar App | Mulastar Agencies
           </p>
