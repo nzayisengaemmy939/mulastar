@@ -49,28 +49,61 @@ function App() {
           </p>
           
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <a 
-              href="https://www.appcreator24.com/app3631028-9ybfmk"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold rounded-xl transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 w-full sm:w-auto"
-            >
-              <span className="flex items-center justify-center gap-2">
+          <div className="flex flex-col gap-4 justify-center items-center mb-12">
+            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+              <a 
+                href="https://www.appcreator24.com/app3631028-9ybfmk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold rounded-xl transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 w-full sm:w-auto"
+              >
+                <span className="flex items-center justify-center gap-2">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  Download App
+                </span>
+              </a>
+              <a 
+                href="https://MulaStar.com/register.php?ref=Gigi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-white hover:bg-gray-50 text-gray-900 font-semibold rounded-xl transition-all shadow-lg hover:shadow-xl border-2 border-gray-200 transform hover:-translate-y-0.5 w-full sm:w-auto"
+              >
+                Get Started Free
+              </a>
+            </div>
+            
+            {/* About Mulastar and Link Row */}
+            <div className="flex flex-col sm:flex-row gap-4 items-center w-full sm:w-auto">
+              <a 
+                href="https://mula1star.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white font-semibold rounded-xl transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 w-full sm:w-auto"
+              >
+                <span className="flex items-center justify-center gap-2">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  About Mulastar
+                </span>
+              </a>
+              <a 
+                href="https://mula1star.org" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-lg font-semibold text-blue-600 hover:text-blue-700 transition-colors"
+              >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                 </svg>
-                Download App
-              </span>
-            </a>
-            <a 
-              href="https://MulaStar.com/register.php?ref=Gigi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-4 bg-white hover:bg-gray-50 text-gray-900 font-semibold rounded-xl transition-all shadow-lg hover:shadow-xl border-2 border-gray-200 transform hover:-translate-y-0.5 w-full sm:w-auto"
-            >
-              Get Started Free
-            </a>
+                mula1star.org
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
           </div>
 
           {/* Country Badges */}
