@@ -24,4 +24,4 @@ export default defineConfig({
       '.mula-star.org'
     ],
   },
-})
+});
